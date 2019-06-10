@@ -1,0 +1,49 @@
+body{
+	font-family: Whirl Cyrillic;
+    background: url(kkk1.jpg) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.of1{
+	height: 50px;
+	width: 350px;
+	font-size: 20px;
+}
+.of2{
+	height: 40px;
+	width: 300px;
+}
+h1{
+	font-size: 100px;
+}
+
+.kkkk{
+	height: 65px;
+	width: 70px;
+}
+p{
+	font-size: 80px;
+	color: white;
+}
+.gradient{
+	color: black;
+	background: url(kkk.jpg) no-repeat;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation-name: gradient;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+@keyframes gradient{
+	0%{
+		background-position: 0 0;
+	}
+	50%{
+		background-position: 100% 0;
+	}
+	100%{
+		background-position: 0 0;
+	}
+}
